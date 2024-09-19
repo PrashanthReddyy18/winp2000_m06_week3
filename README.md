@@ -15,15 +15,16 @@ Linus Torvalds is the most prominent figure in the history of Linux, as he initi
 Since its inception, Linux has evolved from a simple kernel to a versatile operating system used in diverse environments, including servers, desktops, and embedded systems. The introduction of user-friendly distributions, such as Ubuntu and Fedora, made Linux accessible to a broader audience. Today, Linux powers a significant portion of the internet infrastructure, offering advantages in security, flexibility, and cost-effectiveness. Its ongoing development and widespread adoption make Linux a crucial component of modern computing, influencing software development, cloud computing, and more.
 
 # Section 2
+
 # Linux distributions
 Linux distributions are different versions of the Linux operating system that combine the Linux kernel with various software applications and tools. They are important because they cater to a wide range of user needs, from casual desktop users to enterprise environments. This diversity allows users to choose a system that best fits their specific requirements.
 
 # Some popular Linux distributions include:
 
-Ubuntu: Known for its user-friendly interface, making it ideal for beginners.
-Debian: Valued for its stability and extensive package repositories, often used in server settings.
-Fedora: Focuses on cutting-edge technology and is popular among developers.
-Arch Linux: A minimalist and highly customizable option, targeted at advanced users.
+- Ubuntu: Known for its user-friendly interface, making it ideal for beginners.
+- Debian: Valued for its stability and extensive package repositories, often used in server settings.
+- Fedora: Focuses on cutting-edge technology and is popular among developers.
+- Arch Linux: A minimalist and highly customizable option, targeted at advanced users.
 
 The differences between these distributions lie in their package management systems, release models, and target audiences. For instance, Ubuntu and Debian use APT for package management, while Fedora uses DNF. Additionally, Ubuntu has regular releases with long-term support, whereas Arch follows a rolling release model, continuously updating software. Each distribution serves a unique purpose, allowing users to select the best fit for their needs.
 
@@ -31,28 +32,28 @@ The differences between these distributions lie in their package management syst
 
 # Common Linux Commands are :
 
-# ls: Lists files and directories in the current directory.
+ `ls` : Lists files and directories in the current directory.
 Example: ls shows the names of files, while ls -la provides detailed information, including hidden files.
 
-# cd: Changes the current directory to another directory.
+ `cd`: Changes the current directory to another directory.
 Example: cd /path/to/directory navigates to the specified directory. cd .. moves up one level.
 
-# pwd: Prints the full path of the current working directory.
+`pwd` Prints the full path of the current working directory.
 Example: pwd displays your current location in the filesystem.
 
-# mkdir: Creates a new directory.
+`mkdir`: Creates a new directory.
 Example: mkdir new_directory creates a directory named "new_directory."
 
-# cp: Copies files or directories.
+`cp` : Copies files or directories.
 Example: cp file.txt /path/to/destination/ copies "file.txt" to the specified location. Use cp -r for directories.
 
-# mv: Moves or renames files or directories.
+`mv`: Moves or renames files or directories.
 Example: mv old_name.txt new_name.txt renames a file. mv file.txt /new/path/ moves it to a new location.
 
-# rm: Removes files or directories.
+`rm`: Removes files or directories.
 Example: rm file.txt deletes "file.txt." Use rm -r directory_name/ to remove a directory and its contents.
 
-# sudo: Executes a command with superuser privileges, allowing for administrative tasks.
+`sudo`: Executes a command with superuser privileges, allowing for administrative tasks.
 Example: sudo apt update updates package lists, requiring elevated permissions.
 
 These commands are foundational for navigating and managing a Linux system efficiently.
